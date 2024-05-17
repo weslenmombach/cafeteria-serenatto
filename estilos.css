@@ -5,6 +5,11 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
+
 input[type=checkbox]{
   border: 2px solid var(--marrom-claro);
   box-shadow: none;
@@ -55,5 +60,9 @@ input[type=checkbox]:focus{
 }
 
 .input-range::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
+
+.custom-bg-color{
   background-color: var(--marrom-claro);
 }
